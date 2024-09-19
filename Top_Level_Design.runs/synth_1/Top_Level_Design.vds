@@ -1,0 +1,964 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Sep 18 23:25:19 2024
+# Process ID: 10400
+# Current directory: C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.runs/synth_1
+# Command line: vivado.exe -log Top_Level_Design.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Level_Design.tcl
+# Log file: C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.runs/synth_1/Top_Level_Design.vds
+# Journal file: C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Level_Design.tcl -notrace
+Command: synth_design -top Top_Level_Design -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12436 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 409.781 ; gain = 96.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_Level_Design' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/Top_Level_Design.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'ScanRegister_Input' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:48]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+WARNING: [Synth 8-614] signal 'DATA_IN1_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'ScanRegister_Input' (1#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'RISCV_Decoder_Top' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/RISC_V_Decoder_Top.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Initial_Decoder' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/Initial_Decoder.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Initial_Decoder' (2#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/Initial_Decoder.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'R_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_component.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'R_component' (3#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_component.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'R_word_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_word_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'R_word_component' (4#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_word_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'S_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/S_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'S_component' (5#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/S_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'B_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/B_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'B_component' (6#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/B_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'J_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/J_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'J_component' (7#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/J_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'U_LUI_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_LUI_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'U_LUI_component' (8#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_LUI_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'U_AUIPC_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_AUIPC_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'U_AUIPC_component' (9#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_AUIPC_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'I_R_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'I_R_component' (10#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'I_R_Word_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_Word_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'I_R_Word_component' (11#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_Word_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'I_Fence_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_Fence_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'I_Fence_component' (12#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_Fence_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'I_ECSR_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_ECSR_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'I_ECSR_component' (13#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_ECSR_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'I_L_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_L_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'I_L_component' (14#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_L_component.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'I_JALR_component' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_JALR_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'I_JALR_component' (15#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_JALR_component.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'RISCV_Decoder_Top' (16#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/RISC_V_Decoder_Top.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'ScanRegister_Output' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:47]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'datareg2_s' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+WARNING: [Synth 8-614] signal 'DATA_IN2_i' is read in the process but is not in the sensitivity list [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:68]
+INFO: [Common 17-14] Message 'Synth 8-614' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'ScanRegister_Output' (17#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'TAP_TOP' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_TOP.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'TAP_FSM' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_FSM.vhd:49]
+INFO: [Synth 8-226] default block is never used [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_FSM.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'TAP_FSM' (18#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_FSM.vhd:49]
+INFO: [Synth 8-3491] module 'TAP_IR_UNIT' declared at 'C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_UNIT.vhd:103' bound to instance 'ir_rg' of component 'TAP_IR_UNIT' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_TOP.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'TAP_IR_UNIT' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_UNIT.vhd:120]
+INFO: [Synth 8-256] done synthesizing module 'TAP_IR_UNIT' (19#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_UNIT.vhd:120]
+INFO: [Synth 8-3491] module 'TAP_IR_UNIT' declared at 'C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_UNIT.vhd:103' bound to instance 'ir_rg' of component 'TAP_IR_UNIT' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_TOP.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'TAP_BYPASS' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_BYPASS.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'TAP_BYPASS' (20#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_BYPASS.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'TAP_IR_DECODER' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_DECODER.vhd:145]
+INFO: [Synth 8-256] done synthesizing module 'TAP_IR_DECODER' (21#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_DECODER.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'TDO_MUX' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TDO_MUX.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'TDO_MUX' (22#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TDO_MUX.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'TAP_TOP' (23#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/TAP_TOP.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'shift_reg_internal' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/shift_reg_internal.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'shift_reg_internal' (24#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/shift_reg_internal.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Top_Level_Design' (25#1) [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/new/Top_Level_Design.vhd:51]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 470.957 ; gain = 157.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 470.957 ; gain = 157.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 470.957 ; gain = 157.660
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_component.vhd:74]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_component.vhd:74]
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_word_component.vhd:73]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/R_word_component.vhd:73]
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/S_component.vhd:77]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/S_component.vhd:77]
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_LUI_component.vhd:77]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_LUI_component.vhd:77]
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_AUIPC_component.vhd:78]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/U_AUIPC_component.vhd:78]
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_component.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_component.vhd:85]
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_Word_component.vhd:88]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_R_Word_component.vhd:88]
+INFO: [Synth 8-5544] ROM "reg_read_rs2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'mem_read_write_reg[1:0]' into 'mem_reg_select_reg[1:0]' [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_Fence_component.vhd:74]
+WARNING: [Synth 8-6014] Unused sequential element mem_read_write_reg was removed.  [C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.srcs/sources_1/imports/new/I_Fence_component.vhd:74]
+INFO: [Synth 8-5544] ROM "sig_R_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_RW_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_S_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_B_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_J_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_ULUI_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_UAUIPC_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_IR_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_IRW_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_IF_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_IECSR_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_IL_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sig_JALR_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_s_reg' in module 'TAP_FSM'
+INFO: [Synth 8-5544] ROM "JTAG_RST_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DR_SHIFT_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IR_SHIFT_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DR_UPDATE_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IR_UPDATE_s" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "instr_s" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+          reset_state_st |                             1100 |                             0000
+        run_test_idle_st |                             1011 |                             0001
+       select_dr_scan_st |                             0101 |                             0010
+       select_ir_scan_st |                             0110 |                             1001
+           capture_ir_st |                             1010 |                             1010
+             exit1_ir_st |                             0111 |                             1100
+             pause_ir_st |                             0011 |                             1101
+             exit2_ir_st |                             0100 |                             1110
+             shift_ir_st |                             1001 |                             1011
+            update_ir_st |                             1000 |                             1111
+           capture_dr_st |                             0000 |                             0011
+             exit1_dr_st |                             0010 |                             0101
+             pause_dr_st |                             1111 |                             0110
+             exit2_dr_st |                             1101 |                             0111
+             shift_dr_st |                             0001 |                             0100
+            update_dr_st |                             1110 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_s_reg' using encoding 'sequential' in module 'TAP_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 500.027 ; gain = 186.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 14    
+	               41 Bit    Registers := 1     
+	               29 Bit    Registers := 2     
+	               21 Bit    Registers := 9     
+	               20 Bit    Registers := 2     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 13    
+	                7 Bit    Registers := 13    
+	                6 Bit    Registers := 9     
+	                5 Bit    Registers := 31    
+	                4 Bit    Registers := 14    
+	                3 Bit    Registers := 13    
+	                2 Bit    Registers := 18    
+	                1 Bit    Registers := 192   
++---Muxes : 
+	   2 Input     41 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 196   
+	  14 Input      1 Bit        Muxes := 2     
+	  16 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ScanRegister_Input 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 64    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 64    
+Module Initial_Decoder 
+Detailed RTL Component Info : 
++---Registers : 
+	               29 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  14 Input      4 Bit        Muxes := 1     
+Module R_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module R_word_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module S_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module B_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module J_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module U_LUI_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module U_AUIPC_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module I_R_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module I_R_Word_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module I_Fence_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module I_ECSR_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     21 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+Module I_L_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module I_JALR_component 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module RISCV_Decoder_Top 
+Detailed RTL Component Info : 
++---Registers : 
+	               50 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  14 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 13    
+Module ScanRegister_Output 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 100   
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 100   
+Module TAP_FSM 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  16 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 5     
+	  16 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module TAP_BYPASS 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module TAP_IR_DECODER 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module TDO_MUX 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module TAP_IR_UNIT 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module shift_reg_internal 
+Detailed RTL Component Info : 
++---Registers : 
+	               41 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     41 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-3886] merging instance 'P2/E5/reg_write_rd_reg[0]' (FDRE) to 'P2/E5/reg_write_rd_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/reg_write_rd_reg[0]' (FDRE) to 'P2/E4/reg_write_rd_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/Decoded_B_reg[13]' (FDC) to 'P2/E5/Decoded_B_reg[14]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/Decoded_S_reg[13]' (FDC) to 'P2/E4/Decoded_S_reg[14]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/reg_write_rd_reg[1]' (FDRE) to 'P2/E5/reg_write_rd_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/reg_write_rd_reg[1]' (FDRE) to 'P2/E4/reg_write_rd_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/Decoded_B_reg[14]' (FDC) to 'P2/E5/Decoded_B_reg[15]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/Decoded_S_reg[14]' (FDC) to 'P2/E4/Decoded_S_reg[15]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/reg_write_rd_reg[2]' (FDRE) to 'P2/E5/reg_write_rd_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/reg_write_rd_reg[2]' (FDRE) to 'P2/E4/reg_write_rd_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/Decoded_B_reg[15]' (FDC) to 'P2/E5/Decoded_B_reg[16]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/Decoded_S_reg[15]' (FDC) to 'P2/E4/Decoded_S_reg[16]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/reg_write_rd_reg[3]' (FDRE) to 'P2/E5/reg_write_rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/reg_write_rd_reg[3]' (FDRE) to 'P2/E4/reg_write_rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/Decoded_B_reg[16]' (FDC) to 'P2/E5/Decoded_B_reg[17]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/Decoded_S_reg[16]' (FDC) to 'P2/E4/Decoded_S_reg[17]'
+INFO: [Synth 8-3886] merging instance 'P2/E5/reg_write_rd_reg[4]' (FDRE) to 'P2/E5/mem_read_write_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E4/reg_write_rd_reg[4]' (FDRE) to 'P2/E4/mem_reg_select_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs1_reg[0]' (FDRE) to 'P2/E8/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs1_reg[0]' (FDRE) to 'P2/E7/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs1_reg[0]' (FDRE) to 'P2/E6/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[18]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[18]' (FDC) to 'P2/E7/Decoded_ULUI_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[18]' (FDC) to 'P2/E6/Decoded_J_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs1_reg[1]' (FDRE) to 'P2/E8/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs1_reg[1]' (FDRE) to 'P2/E7/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs1_reg[1]' (FDRE) to 'P2/E6/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[19]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[19]' (FDC) to 'P2/E7/Decoded_ULUI_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[19]' (FDC) to 'P2/E6/Decoded_J_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs1_reg[2]' (FDRE) to 'P2/E8/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs1_reg[2]' (FDRE) to 'P2/E7/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs1_reg[2]' (FDRE) to 'P2/E6/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[20]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[20]' (FDC) to 'P2/E7/Decoded_ULUI_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[20]' (FDC) to 'P2/E6/Decoded_J_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs1_reg[3]' (FDRE) to 'P2/E8/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs1_reg[3]' (FDRE) to 'P2/E7/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs1_reg[3]' (FDRE) to 'P2/E6/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[21]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[21]' (FDC) to 'P2/E7/Decoded_ULUI_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[21]' (FDC) to 'P2/E6/Decoded_J_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs1_reg[4]' (FDRE) to 'P2/E8/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs1_reg[4]' (FDRE) to 'P2/E7/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs1_reg[4]' (FDRE) to 'P2/E6/reg_read_rs2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[22]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[22]' (FDC) to 'P2/E7/Decoded_ULUI_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[22]' (FDC) to 'P2/E6/Decoded_J_reg[23]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs2_reg[0]' (FDRE) to 'P2/E8/reg_read_rs2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs2_reg[0]' (FDRE) to 'P2/E7/reg_read_rs2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs2_reg[0]' (FDRE) to 'P2/E6/reg_read_rs2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E12/reg_read_rs2_reg[0]' (FDRE) to 'P2/E12/reg_read_rs2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E11/reg_read_rs2_reg[0]' (FDRE) to 'P2/E11/reg_read_rs2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E14/reg_read_rs2_reg[0]' (FDRE) to 'P2/E14/reg_read_rs2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E13/reg_read_rs2_reg[0]' (FDRE) to 'P2/E13/reg_read_rs2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[23]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[24]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[23]' (FDC) to 'P2/E7/Decoded_ULUI_reg[24]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[23]' (FDC) to 'P2/E6/Decoded_J_reg[24]'
+INFO: [Synth 8-3886] merging instance 'P2/E12/Decoded_IECSR_reg[23]' (FDC) to 'P2/E12/Decoded_IECSR_reg[24]'
+INFO: [Synth 8-3886] merging instance 'P2/E11/Decoded_IF_reg[23]' (FDC) to 'P2/E11/Decoded_IF_reg[24]'
+INFO: [Synth 8-3886] merging instance 'P2/E14/Decoded_JALR_reg[23]' (FDC) to 'P2/E14/Decoded_JALR_reg[24]'
+INFO: [Synth 8-3886] merging instance 'P2/E13/Decoded_IL_reg[23]' (FDC) to 'P2/E13/Decoded_IL_reg[24]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs2_reg[1]' (FDRE) to 'P2/E8/reg_read_rs2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs2_reg[1]' (FDRE) to 'P2/E7/reg_read_rs2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs2_reg[1]' (FDRE) to 'P2/E6/reg_read_rs2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E12/reg_read_rs2_reg[1]' (FDRE) to 'P2/E12/reg_read_rs2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E11/reg_read_rs2_reg[1]' (FDRE) to 'P2/E11/reg_read_rs2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E14/reg_read_rs2_reg[1]' (FDRE) to 'P2/E14/reg_read_rs2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E13/reg_read_rs2_reg[1]' (FDRE) to 'P2/E13/reg_read_rs2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[24]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[25]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[24]' (FDC) to 'P2/E7/Decoded_ULUI_reg[25]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[24]' (FDC) to 'P2/E6/Decoded_J_reg[25]'
+INFO: [Synth 8-3886] merging instance 'P2/E12/Decoded_IECSR_reg[24]' (FDC) to 'P2/E12/Decoded_IECSR_reg[25]'
+INFO: [Synth 8-3886] merging instance 'P2/E11/Decoded_IF_reg[24]' (FDC) to 'P2/E11/Decoded_IF_reg[25]'
+INFO: [Synth 8-3886] merging instance 'P2/E14/Decoded_JALR_reg[24]' (FDC) to 'P2/E14/Decoded_JALR_reg[25]'
+INFO: [Synth 8-3886] merging instance 'P2/E13/Decoded_IL_reg[24]' (FDC) to 'P2/E13/Decoded_IL_reg[25]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs2_reg[2]' (FDRE) to 'P2/E8/reg_read_rs2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs2_reg[2]' (FDRE) to 'P2/E7/reg_read_rs2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs2_reg[2]' (FDRE) to 'P2/E6/reg_read_rs2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E12/reg_read_rs2_reg[2]' (FDRE) to 'P2/E12/reg_read_rs2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E11/reg_read_rs2_reg[2]' (FDRE) to 'P2/E11/reg_read_rs2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E14/reg_read_rs2_reg[2]' (FDRE) to 'P2/E14/reg_read_rs2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E13/reg_read_rs2_reg[2]' (FDRE) to 'P2/E13/reg_read_rs2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[25]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[26]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[25]' (FDC) to 'P2/E7/Decoded_ULUI_reg[26]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[25]' (FDC) to 'P2/E6/Decoded_J_reg[26]'
+INFO: [Synth 8-3886] merging instance 'P2/E12/Decoded_IECSR_reg[25]' (FDC) to 'P2/E12/Decoded_IECSR_reg[26]'
+INFO: [Synth 8-3886] merging instance 'P2/E11/Decoded_IF_reg[25]' (FDC) to 'P2/E11/Decoded_IF_reg[26]'
+INFO: [Synth 8-3886] merging instance 'P2/E14/Decoded_JALR_reg[25]' (FDC) to 'P2/E14/Decoded_JALR_reg[26]'
+INFO: [Synth 8-3886] merging instance 'P2/E13/Decoded_IL_reg[25]' (FDC) to 'P2/E13/Decoded_IL_reg[26]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/reg_read_rs2_reg[3]' (FDRE) to 'P2/E8/reg_read_rs2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/reg_read_rs2_reg[3]' (FDRE) to 'P2/E7/reg_read_rs2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/reg_read_rs2_reg[3]' (FDRE) to 'P2/E6/reg_read_rs2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E12/reg_read_rs2_reg[3]' (FDRE) to 'P2/E12/reg_read_rs2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E11/reg_read_rs2_reg[3]' (FDRE) to 'P2/E11/reg_read_rs2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E14/reg_read_rs2_reg[3]' (FDRE) to 'P2/E14/reg_read_rs2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E13/reg_read_rs2_reg[3]' (FDRE) to 'P2/E13/reg_read_rs2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'P2/E8/Decoded_UAUIPC_reg[26]' (FDC) to 'P2/E8/Decoded_UAUIPC_reg[27]'
+INFO: [Synth 8-3886] merging instance 'P2/E7/Decoded_ULUI_reg[26]' (FDC) to 'P2/E7/Decoded_ULUI_reg[27]'
+INFO: [Synth 8-3886] merging instance 'P2/E6/Decoded_J_reg[26]' (FDC) to 'P2/E6/Decoded_J_reg[27]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E11/reg_read_rs2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E6/immediate_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E5/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E4/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E12/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E11/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E10/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E9/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E12/mem_reg_select_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E6/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E5/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E14/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E4/mem_reg_select_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E13/mem_read_write_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E8/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E7/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E6/mem_read_write_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E5/mem_read_write_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E2/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E4/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E3/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E12/mem_read_write_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E11/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E10/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E9/mem_reg_select_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E14/mem_read_write_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E13/mem_read_write_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E8/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E7/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E6/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E5/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E2/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E4/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E3/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E12/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E11/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E14/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E13/second_source_select_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E13/func_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E8/func_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E7/func_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E6/immediate_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E5/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E4/immediate_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E10/func_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E9/func_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E14/func_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E8/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E7/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E6/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E5/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E2/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E4/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E3/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E12/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\P2/E11/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E14/func_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\P2/E13/func_reg[8] )
+WARNING: [Synth 8-3332] Sequential element (P2/E5/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E5/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E6/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E6/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E12/mem_reg_select_reg[0]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E12/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E13/mem_read_write_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E13/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E14/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E14/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E2/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E2/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E3/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E3/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E4/mem_reg_select_reg[0]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E4/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E4/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E5/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E6/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E7/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E7/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E7/func_reg[7]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E8/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E8/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E8/func_reg[7]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E9/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E9/func_reg[7]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E9/immediate_reg[20]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E10/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E10/func_reg[7]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E10/immediate_reg[20]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E11/second_source_select_reg) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E11/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E11/reg_read_rs2_reg[5]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E11/immediate_reg[20]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E12/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E12/immediate_reg[20]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E13/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E13/func_reg[6]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E14/func_reg[8]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E14/func_reg[7]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E4/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E13/mem_read_write_reg[0]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E8/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E7/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E6/mem_read_write_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E5/mem_read_write_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E2/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E3/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E12/mem_read_write_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E11/mem_reg_select_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E14/mem_read_write_reg[1]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E4/immediate_reg[20]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E6/immediate_reg[0]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E5/immediate_reg[20]) is unused and will be removed from module Top_Level_Design.
+WARNING: [Synth 8-3332] Sequential element (P2/E11/Decoded_IF_reg[12]) is unused and will be removed from module Top_Level_Design.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     3|
+|2     |LUT1  |     3|
+|3     |LUT2  |    27|
+|4     |LUT3  |     7|
+|5     |LUT4  |    44|
+|6     |LUT5  |   141|
+|7     |LUT6  |   158|
+|8     |FDCE  |   524|
+|9     |FDPE  |     5|
+|10    |FDRE  |   605|
+|11    |IBUF  |    37|
+|12    |OBUF  |    10|
+|13    |OBUFT |     1|
++------+------+------+
+
+Report Instance Areas: 
++------+---------------------------+--------------------+------+
+|      |Instance                   |Module              |Cells |
++------+---------------------------+--------------------+------+
+|1     |top                        |                    |  1565|
+|2     |  P1                       |ScanRegister_Input  |    32|
+|3     |  P2                       |RISCV_Decoder_Top   |  1170|
+|4     |    E1                     |Initial_Decoder     |   274|
+|5     |    E10                    |I_R_Word_component  |    90|
+|6     |    E11                    |I_Fence_component   |    61|
+|7     |    E12                    |I_ECSR_component    |    66|
+|8     |    E13                    |I_L_component       |    62|
+|9     |    E14                    |I_JALR_component    |    61|
+|10    |    E2                     |R_component         |    58|
+|11    |    E3                     |R_word_component    |    58|
+|12    |    E4                     |S_component         |    61|
+|13    |    E5                     |B_component         |    61|
+|14    |    E6                     |J_component         |    58|
+|15    |    E7                     |U_LUI_component     |    58|
+|16    |    E8                     |U_AUIPC_component   |    58|
+|17    |    E9                     |I_R_component       |    89|
+|18    |  P3                       |ScanRegister_Output |   100|
+|19    |  P4                       |TAP_TOP             |   170|
+|20    |    TAP_FSM                |TAP_FSM             |    31|
+|21    |    dr_bypass              |TAP_BYPASS          |     1|
+|22    |    \generate_ir[0].ir_rg  |TAP_IR_UNIT         |    52|
+|23    |    \generate_ir[1].ir_rg  |TAP_IR_UNIT_0       |    85|
+|24    |    tdo_mux                |TDO_MUX             |     1|
+|25    |  P5                       |shift_reg_internal  |    42|
++------+---------------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 228 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 636.965 ; gain = 323.668
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+263 Infos, 164 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 721.062 ; gain = 420.652
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Public/Downloads/Top_Level_Design/Top_Level_Design.runs/synth_1/Top_Level_Design.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_Level_Design_utilization_synth.rpt -pb Top_Level_Design_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 721.062 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 18 23:25:55 2024...

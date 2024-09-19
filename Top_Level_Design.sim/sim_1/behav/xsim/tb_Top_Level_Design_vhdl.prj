@@ -1,0 +1,32 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/B_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/I_ECSR_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/I_Fence_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/I_JALR_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/I_L_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/I_R_Word_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/I_R_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/Initial_Decoder.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/J_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/R_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/R_word_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/S_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/U_LUI_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/U_AUIPC_component.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/RISC_V_Decoder_Top.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/ScanRegister_Input.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/new/ScanRegister_Output.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/TAP_P.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/TAP_BYPASS.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/TAP_FSM.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_DECODER.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/TAP_IR_UNIT.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/TDO_MUX.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/TAP_TOP.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/imports/new/shift_reg_internal.vhd" \
+"../../../../Top_Level_Design.srcs/sources_1/new/Top_Level_Design.vhd" \
+"../../../../Top_Level_Design.srcs/sim_1/new/tb_Top_Level_Design.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,99 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Sep 18 23:27:38 2024
+| Host         : DESKTOP-T8AOVEN running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Level_Design_control_sets_placed.rpt
+| Design       : Top_Level_Design
+| Device       : xc7z010
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    31 |
+| Unused register locations in slices containing registers |    84 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      6 |            1 |
+|      8 |            2 |
+|     14 |            1 |
+|    16+ |           25 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             270 |           39 |
+| No           | No                    | Yes                    |             866 |           83 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             844 |          118 |
+| Yes          | No                    | Yes                    |             192 |           36 |
+| Yes          | Yes                   | No                     |              96 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+----------------------------------------------+---------------------------------+------------------+----------------+
+|    Clock Signal   |                 Enable Signal                |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++-------------------+----------------------------------------------+---------------------------------+------------------+----------------+
+|  CLK_in_IBUF_BUFG | P2/SERIAL_OUT0                               |                                 |                1 |              2 |
+|  CLK_in_IBUF_BUFG | P4/TAP_FSM/inter_data_s_0                    | P4/TAP_FSM/data_out_s_reg_1     |                1 |              2 |
+|  CLK_in_IBUF_BUFG |                                              |                                 |                3 |              6 |
+|  CLK_in_IBUF_BUFG |                                              | P4/TAP_FSM/data_out_s_reg_1     |                1 |              8 |
+|  CLK_in_IBUF_BUFG | P4/TAP_FSM/FSM_sequential_state_s[3]_i_1_n_0 | P4/TAP_FSM/trst_s               |                1 |              8 |
+| ~CLK_in_IBUF_BUFG |                                              | P4/TAP_FSM/trst_s               |                4 |             14 |
+|  CLK_in_IBUF_BUFG | P2/E10/func7[6]_i_2_n_0                      | P2/E10/func7[6]_i_1__1_n_0      |                2 |             24 |
+|  CLK_in_IBUF_BUFG | P2/E10/immediate[11]_i_2_n_0                 | P2/E10/immediate[11]_i_1__2_n_0 |                2 |             24 |
+|  CLK_in_IBUF_BUFG | P2/E9/immediate[11]_i_2__2_n_0               | P2/E9/immediate[11]_i_1__1_n_0  |                2 |             24 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[0]                       |                                 |                2 |             24 |
+|  CLK_in_IBUF_BUFG | P2/E1/reg_read_rs2_reg[0]_2                  | P2/E9/func7[5]_i_1_n_0          |                2 |             24 |
+|  CLK_in_IBUF_BUFG | P2/E12/immediate[11]_i_1_n_0                 |                                 |                3 |             24 |
+|  CLK_in_IBUF_BUFG | P2/E1/reg_read_rs1_reg[0]_0[0]               |                                 |                7 |             40 |
+|  CLK_in_IBUF_BUFG | P2/E1/reg_read_rs1_reg[0]_2[0]               |                                 |                4 |             42 |
+|  CLK_in_IBUF_BUFG | P2/E1/reg_read_rs1_reg[0]_1[0]               |                                 |                7 |             44 |
+|  CLK_in_IBUF_BUFG | P2/E1/reg_read_rs1_reg[0][0]                 |                                 |                7 |             44 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[0]_2[0]                  |                                 |                9 |             58 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[0]_4[0]                  |                                 |                8 |             58 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[1]_0[0]                  |                                 |                7 |             58 |
+|  CLK_in_IBUF_BUFG | P2/E1/E[0]                                   |                                 |                8 |             62 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[1][0]                    |                                 |                9 |             64 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[0]_0[0]                  |                                 |                8 |             64 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[0]_1[0]                  |                                 |                7 |             64 |
+|  CLK_in_IBUF_BUFG | P2/E1/immediate_reg[0]_3[0]                  |                                 |               12 |             64 |
+|  CLK_in_IBUF_BUFG | P2/E1/reg_read_rs2_reg[0]_1[0]               |                                 |               10 |             66 |
+|  CLK_in_IBUF_BUFG | P2/E1/reg_read_rs2_reg[0]_0[0]               |                                 |                9 |             66 |
+|  CLK_in_IBUF_BUFG | P2/E[0]                                      | RST_in_IBUF                     |               12 |             82 |
+|  CLK_in_IBUF_BUFG | P2/E1/DECODED_reg[0][0]                      | RST_in_IBUF                     |               22 |            100 |
+|  UPDATE_DR_S_BUFG |                                              |                                 |                9 |            100 |
+|  CLOCK_DR_S_BUFG  |                                              |                                 |               27 |            164 |
+|  CLK_in_IBUF_BUFG |                                              | RST_in_IBUF                     |               78 |            844 |
++-------------------+----------------------------------------------+---------------------------------+------------------+----------------+
+
+

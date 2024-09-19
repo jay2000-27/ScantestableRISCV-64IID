@@ -1,0 +1,41 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 804db1e778274619b0d0715cf1a8ebee --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Top_Level_Design_behav xil_defaultlib.tb_Top_Level_Design -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.tap_p
+Compiling architecture behavioral of entity xil_defaultlib.ScanRegister_Input [scanregister_input_default]
+Compiling architecture behavioral of entity xil_defaultlib.Initial_Decoder [initial_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.R_component [r_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.R_word_component [r_word_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.S_component [s_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.B_component [b_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.J_component [j_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.U_LUI_component [u_lui_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.U_AUIPC_component [u_auipc_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.I_R_component [i_r_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.I_R_Word_component [i_r_word_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.I_Fence_component [i_fence_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.I_ECSR_component [i_ecsr_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.I_L_component [i_l_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.I_JALR_component [i_jalr_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.RISCV_Decoder_Top [riscv_decoder_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.ScanRegister_Output [scanregister_output_default]
+Compiling architecture behavioral of entity xil_defaultlib.TAP_IR_UNIT [tap_ir_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.TAP_FSM [tap_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.TAP_BYPASS [tap_bypass_default]
+Compiling architecture behavioral of entity xil_defaultlib.TAP_IR_DECODER [tap_ir_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.TDO_MUX [tdo_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.TAP_TOP [tap_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_reg_internal [shift_reg_internal_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_Level_Design [top_level_design_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_top_level_design
+Built simulation snapshot tb_Top_Level_Design_behav
